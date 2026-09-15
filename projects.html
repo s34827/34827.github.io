@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ผลงาน — ชื่อ นามสกุล</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site">
+  <nav class="site-nav">
+    <a class="mark" href="index.html">เภสัช. พอร์ตโฟลิโอ</a>
+    <ul>
+      <li><a href="index.html">หน้าแรก</a></li>
+      <li><a href="about.html">เกี่ยวกับฉัน</a></li>
+      <li><a href="projects.html" aria-current="page">ผลงาน</a></li>
+      <li><a href="contact.html">ติดต่อ</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <div class="wrap-wide">
+    <div class="page-head">
+      <h1>ผลงานและโครงการ</h1>
+      <p>คลิกที่แต่ละโครงการเพื่อดูรายละเอียดเพิ่มเติม</p>
+    </div>
+
+    <div class="project-grid">
+
+      <button class="project-card" style="--accent: var(--amber);"
+        data-modal="m1">
+        <span class="tag">งานวิจัย</span>
+        <h3>ฤทธิ์ต้านอนุมูลอิสระของสารสกัดสมุนไพรไทย</h3>
+        <p>ศึกษาฤทธิ์ทางเภสัชวิทยาเบื้องต้นของสารสกัดจากพืชสมุนไพรท้องถิ่น</p>
+        <span class="more">ดูรายละเอียด →</span>
+      </button>
+
+      <button class="project-card" style="--accent: var(--green);"
+        data-modal="m2">
+        <span class="tag">ฝึกปฏิบัติงาน</span>
+        <h3>ฝึกปฏิบัติงานวิชาชีพ ณ โรงพยาบาล...</h3>
+        <p>ปฏิบัติงานแผนกเภสัชกรรมผู้ป่วยนอก และให้คำปรึกษาด้านการใช้ยา</p>
+        <span class="more">ดูรายละเอียด →</span>
+      </button>
+
+      <button class="project-card" style="--accent: var(--amber-deep);"
+        data-modal="m3">
+        <span class="tag">โครงการบริการวิชาการ</span>
+        <h3>โครงการเภสัชกรรมชุมชนเคลื่อนที่</h3>
+        <p>จัดกิจกรรมให้ความรู้ด้านยาและตรวจคัดกรองสุขภาพเบื้องต้นแก่ชุมชน</p>
+        <span class="more">ดูรายละเอียด →</span>
+      </button>
+
+    </div>
+  </div>
+</main>
+
+<footer class="site">
+  <div class="wrap-wide">
+    <span>© 2026 ชื่อ นามสกุล</span>
+    <span>คณะเภสัชศาสตร์</span>
+  </div>
+</footer>
+
+<!-- ===== Modal 1 ===== -->
+<div class="modal-backdrop" id="modal-m1">
+  <div class="modal" style="--accent: var(--amber);" role="dialog" aria-modal="true" aria-labelledby="m1-title">
+    <button class="close" aria-label="ปิดหน้าต่าง" data-close>×</button>
+    <span class="tag">งานวิจัย</span>
+    <h2 id="m1-title">ฤทธิ์ต้านอนุมูลอิสระของสารสกัดสมุนไพรไทย</h2>
+    <div class="meta">
+      <div><strong>ระยะเวลา</strong>ส.ค. 2566 – มี.ค. 2567</div>
+      <div><strong>บทบาท</strong>ผู้วิจัยหลัก</div>
+      <div><strong>อาจารย์ที่ปรึกษา</strong>ดร. ...</div>
+    </div>
+    <p>
+      โครงงานวิจัยระดับปริญญาตรี ศึกษาฤทธิ์ต้านอนุมูลอิสระและปริมาณสารประกอบฟีนอลิก
+      ในสารสกัดจากพืชสมุนไพรไทยชนิดหนึ่ง โดยใช้วิธี DPPH assay เปรียบเทียบกับสารมาตรฐาน
+      ผลการศึกษานำไปสู่การนำเสนอในงานประชุมวิชาการระดับคณะ
+    </p>
+    <ul class="chips">
+      <li>DPPH assay</li>
+      <li>การสกัดสาร</li>
+      <li>สถิติทางชีวภาพ</li>
+      <li>การเขียนบทความวิชาการ</li>
+    </ul>
+  </div>
+</div>
+
+<!-- ===== Modal 2 ===== -->
+<div class="modal-backdrop" id="modal-m2">
+  <div class="modal" style="--accent: var(--green);" role="dialog" aria-modal="true" aria-labelledby="m2-title">
+    <button class="close" aria-label="ปิดหน้าต่าง" data-close>×</button>
+    <span class="tag">ฝึกปฏิบัติงาน</span>
+    <h2 id="m2-title">ฝึกปฏิบัติงานวิชาชีพ ณ โรงพยาบาล...</h2>
+    <div class="meta">
+      <div><strong>ระยะเวลา</strong>6 สัปดาห์ · 2567</div>
+      <div><strong>แผนก</strong>เภสัชกรรมผู้ป่วยนอก</div>
+      <div><strong>ผู้ควบคุม</strong>ภก. ...</div>
+    </div>
+    <p>
+      ปฏิบัติงานร่วมกับทีมเภสัชกรในแผนกผู้ป่วยนอก ตรวจสอบความถูกต้องของใบสั่งยา
+      จัดยาตามมาตรฐานความปลอดภัย และให้คำปรึกษาด้านการใช้ยาแก่ผู้ป่วยกลุ่มโรคเรื้อรัง
+      รวมถึงร่วมทำกิจกรรมเภสัชสนเทศภายในหน่วยงาน
+    </p>
+    <ul class="chips">
+      <li>Patient counseling</li>
+      <li>Medication review</li>
+      <li>การทำงานเป็นทีม</li>
+    </ul>
+  </div>
+</div>
+
+<!-- ===== Modal 3 ===== -->
+<div class="modal-backdrop" id="modal-m3">
+  <div class="modal" style="--accent: var(--amber-deep);" role="dialog" aria-modal="true" aria-labelledby="m3-title">
+    <button class="close" aria-label="ปิดหน้าต่าง" data-close>×</button>
+    <span class="tag">โครงการบริการวิชาการ</span>
+    <h2 id="m3-title">โครงการเภสัชกรรมชุมชนเคลื่อนที่</h2>
+    <div class="meta">
+      <div><strong>ระยะเวลา</strong>ธ.ค. 2566</div>
+      <div><strong>บทบาท</strong>หัวหน้าโครงการย่อย</div>
+      <div><strong>สถานที่</strong>ชุมชน ... จังหวัด ...</div>
+    </div>
+    <p>
+      ร่วมกับทีมนักศึกษาจัดกิจกรรมออกหน่วยให้ความรู้เรื่องการใช้ยาอย่างสมเหตุผล
+      และให้บริการตรวจคัดกรองสุขภาพเบื้องต้น เช่น วัดความดันโลหิตและระดับน้ำตาลในเลือด
+      แก่ประชาชนในพื้นที่ห่างไกล
+    </p>
+    <ul class="chips">
+      <li>สื่อสารสุขภาพ</li>
+      <li>การคัดกรองเบื้องต้น</li>
+      <li>การจัดการโครงการ</li>
+    </ul>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
